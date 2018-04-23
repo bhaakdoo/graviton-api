@@ -1,0 +1,39 @@
+{
+    "name": "graviton",
+    "version": "0.0.1",
+    "description": "nodejs-graviton-server",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "author": "Waioz Dev",
+    "license": "ISC",
+    "dependencies": {
+        "bluebird": "~3.5.1",
+        "body-parser": "~1.18.2",
+        "compression": "~1.7.2",
+        "cookie-parser": "~1.4.3",
+        "cors": "~2.8.4",
+        "debug": "~3.1.0",
+        "diet": "^0.16.0",
+        "dotenv": "~5.0.1",
+        "express": "~4.16.3",
+        "express-jwt": "~5.3.1",
+        "express-validation": "~1.0.2",
+        "express-winston": "~2.5.1",
+        "helmet": "~3.12.0",
+        "http-status": "~1.0.1",
+        "joi": "~13.1.2",
+        "jsonwebtoken": "~8.2.1",
+        "method-override": "~2.3.10",
+        "mongoose": "~5.0.15",
+        "morgan": "~1.9.0",
+        "winston": "~2.4.1"
+    },
+    "devDependencies": {
+        "eslint": "^4.19.1",
+        "eslint-config-airbnb-base": "^12.1.0",
+        "eslint-plugin-import": "^2.11.0"
+    }
+}
